@@ -1,6 +1,6 @@
 {
   "name": "react-native-library-sample-toannv",
-  "version": "0.2.0",
+  "version": "0.7.0",
   "description": "sample library",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
@@ -39,7 +39,8 @@
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build lib",
     "prepare": "bob build",
-    "release": "release-it --only-version"
+    "release": "release-it --only-version",
+    "build_local": "npm pack"
   },
   "keywords": [
     "react-native",
@@ -89,6 +90,9 @@
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
+  },
+  "dependencies": {
+    "react-native-device-info": "^14.1.1"
   },
   "workspaces": [
     "packages/*"
@@ -156,8 +160,5 @@
     "languages": "kotlin-objc",
     "type": "turbo-module",
     "version": "0.54.3"
-  },
-  "dependencies": {
-    "react-native-device-info": "^14.1.1"
   }
 }
