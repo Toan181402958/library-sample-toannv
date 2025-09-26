@@ -1,6 +1,6 @@
 {
   "name": "react-native-library-sample-toannv",
-  "version": "0.7.0",
+  "version": "1.0.0",
   "description": "sample library",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",

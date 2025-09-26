@@ -26,6 +26,8 @@
     "strict": true,
     "target": "ESNext",
     "verbatimModuleSyntax": true,
-    "declaration": true
+    "declaration": true,
+    "allowJs": true,
+    "checkJs": false
   }
 }
